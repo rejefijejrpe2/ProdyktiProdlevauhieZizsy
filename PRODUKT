@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+/* стили для мобильных устройств */
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
